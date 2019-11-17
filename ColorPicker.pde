@@ -1,6 +1,9 @@
 
 import java.lang.ref.WeakReference;
 
+// Core algorithm for this picker is based on part 1 of Slynyrd's pixel art series:
+// https://www.slynyrd.com/blog/2018/1/10/pixelblog-1-color-palettes
+
 Graph graph;
 Slider rampSizeSlider;
 Slider rampCountSlider;
